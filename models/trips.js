@@ -5,7 +5,6 @@ const tripsSchema = mongoose.Schema({
     arrival: String,
     date: Date,
     price: Number,
-    
 });
 
 const Trip = mongoose.model('trips', tripsSchema);
